@@ -7,7 +7,7 @@
 int main(void)
 {
 int d = 48;
-while (n < 58)
+while (d < 58)
 {
 putchar(d);
 d++;
