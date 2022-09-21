@@ -10,7 +10,7 @@ int n, i, h;
 for (n = 0; n <= 9; n++)
 {
 _putchar('0');
-for (i =1; n <= 9; n++)
+for (i =1; i <= 9; i++)
 {
 h = n * i;
 _putchar(',');
