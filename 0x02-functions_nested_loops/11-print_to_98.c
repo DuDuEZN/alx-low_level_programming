@@ -9,10 +9,9 @@
  */
 void print_to_98(int n)
 {
-int f;
 while (n <= 98)
 {
-f = n + 1
+int f = n + 1;
 printf("%d, ", f);
 n++;
 }
