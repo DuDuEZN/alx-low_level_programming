@@ -1,4 +1,4 @@
-#include \"main.h\"
+#include "main.h"
 #include <stdio.h>
 
 /**
@@ -10,7 +10,7 @@
 int print_to_98(int n)
 {
 int f;
-while (n <= 98(
+while (n <= 98)
 {
 f = n + 1
 printf("%d, ", f);
