@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdio.h>
+
 /**
  * print_last_digit - print last digit of a number
  * @f: the number to be checked 
@@ -13,6 +13,6 @@ if (r < 0)
 {
 r = r * -1;
 }
-_putchar('0' + r);
+_putchar(r + '0');
 return (r);
 }
