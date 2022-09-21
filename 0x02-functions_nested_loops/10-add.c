@@ -5,10 +5,10 @@
  * @t: first integer
  * @i: second integer
  *
- * Return:
+ * Return: value of addition t and i
  */
 int add(int t, int i)
 {
 int f = t + i;
-return(f);
-} 
+return (f);
+}
