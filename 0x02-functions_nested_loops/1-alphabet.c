@@ -7,7 +7,7 @@
  */
 void print_alphabet(void)
 {
-char s ='a';
+char s = 'a';
 while (s <= 'z')
 {
 _putchar(s);
