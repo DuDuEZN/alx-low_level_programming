@@ -2,8 +2,6 @@
 
 /**
  * jack_bauer - print every minute of the day
- * @h: hour of the day
- * @m: minutes of the day
  *
  * Return 0 Always (Success)
  */
