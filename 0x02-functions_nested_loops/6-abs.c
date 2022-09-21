@@ -2,9 +2,9 @@
 #include <stdio.h>
 /**
  * _abs - compute the absolute value of an integer
+ * @t: the number to be checked
  *
- *
- *
+ * Return: t if t is greater than 0, -t otherwise
  */
 
 
