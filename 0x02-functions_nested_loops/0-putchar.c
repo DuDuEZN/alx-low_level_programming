@@ -1,6 +1,7 @@
-#include <main.h>
-#include "_putchar.h"
-/* main - Entry point
+#include "main.h"
+/**
+ *
+ * main- Entry - point
  *
  * Return: 0 Always (Success)
  */
@@ -15,7 +16,6 @@ _putchar('h');
 _putchar('a');
 _putchar('r');
 _putchar('\n');
-
 
 return (0);
 }
