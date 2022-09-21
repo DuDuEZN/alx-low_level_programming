@@ -3,7 +3,7 @@
 
 /**
  * print_last_digit - print last digit of a number
- * 
+ * @f: the number to be checked 
  *
  * Return: value of the last digit
  */
@@ -18,4 +18,4 @@ r = r * -1;
 }
 _putchar('0' + r);
 return (r);
-} 
+}
