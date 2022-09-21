@@ -1,14 +1,11 @@
 #include "main.h"
 #include <stdio.h>
-
 /**
  * print_last_digit - print last digit of a number
  * @f: the number to be checked 
  *
  * Return: value of the last digit
  */
-
-
 int print_last_digit(int f)
 {
 int r = f % 10;
