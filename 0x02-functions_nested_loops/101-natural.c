@@ -17,4 +17,5 @@ n++;
 }
 }
 printf("%d\n", h);
+return (0);
 }
