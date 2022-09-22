@@ -16,5 +16,5 @@ h = h + n;
 n++;
 }
 }
-print("%d\n", h);
+printf("%d\n", h);
 }
