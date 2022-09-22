@@ -23,7 +23,7 @@ if (h <= 9)
 {
 _putchar(' ');
 }
-if ( h <= 99)
+if (h <= 99)
 {
 _putchar(' ');
 }
@@ -32,7 +32,7 @@ if (h >= 100)
 _putchar((h / 100) + '0');
 _putchar(((h / 10)) % 10 + '0');
 }
-else if (h <= 99 && h>= 10)
+else if (h <= 99 && h >= 10)
 {
 _putchar((h / 10) + '0');
 }
