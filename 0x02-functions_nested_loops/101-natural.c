@@ -7,13 +7,12 @@
  */
 int main(void)
 {
-int n = 0, h;
-if (n <= 1024)
+int n, h;
+for (n = 0; n <= 1024; n++)
 {
-while ((n % 3) == 0 || (n % 5) == 0)
+if ((n % 3) == 0 || (n % 5) == 0)
 {
 h = h + n;
-n++;
 }
 }
 printf("%d\n", h);
