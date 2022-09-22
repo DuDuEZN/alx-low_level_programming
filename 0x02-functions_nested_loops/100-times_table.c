@@ -19,16 +19,26 @@ for (i = 1; i <= n; i++)
 h = t * i;
 _putchar(',');
 _putchar(' ');
-if (h <= n)
+if (h <= 9)
 {
 _putchar(' ');
 _putchar(h + '0');
 }
-else
+if ( h <= 99)
+{
+_putchar(' ');
+_putchar(h + '0');
+}
+if (h >= 100)
+{
+_putchar((h / 100) + '0');
+_putchar(((h / 10) % 10) + '0');
+}
+else if (h <= 99 && h>= 10)
 {
 _putchar((h / 10) + '0');
-_putchar((h % 10) + '0');
 }
+_putchar((h % 10) + '0');
 }
 _putchar('\n');
 }
