@@ -1,6 +1,6 @@
 #include "main.h"
 
-/** 
+/**
  * print_times_table - print n times table
  * @n: number of times table
  *
@@ -14,12 +14,12 @@ int t, i, h;
 for (t = 0; t <= n; t++)
 {
 _putchar('0');
-for (i = 1; i <= 9; i++)
+for (i = 1; i <= n; i++)
 {
 h = t * i;
 _putchar(',');
 _putchar(' ');
-if (h <= 9)
+if (h <= n)
 {
 _putchar(' ');
 _putchar(h + '0');
