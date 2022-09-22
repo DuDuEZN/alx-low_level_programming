@@ -1,8 +1,8 @@
 
 #include <stdio.h>
 /**
- * main - list all natural number 
- * 
+ * main - list all natural number
+ *
  * Return: Always 0
  */
 int main(void)
