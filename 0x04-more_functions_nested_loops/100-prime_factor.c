@@ -19,6 +19,6 @@ n /= fp;
 fp--;
 }
 }
-printf(%ldn, fp);
+printf("%ld\n", fp);
 return (0);
 }
