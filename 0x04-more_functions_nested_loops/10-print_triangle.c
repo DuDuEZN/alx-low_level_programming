@@ -12,7 +12,7 @@ int n, t;
 
 for (n = 0; n < size; n++)
 {
-for (t = 1; t < (size -n); t++)
+for (t = 1; t < (size - n); t++)
 {
 _putchar(' ');
 }
@@ -20,7 +20,7 @@ for (t--; t < size; t++)
 {
 _putchar(35);
 }
-if (n < (size -1))
+if (n < (size - 1))
 {
 _putchar('\n');
 }
