@@ -17,7 +17,7 @@ if (n < 0)
 _putchar('-');
 num = -num;
 }
-if (n > 9)
+if (num > 9)
 {
 print_number(num / 10);
 }
