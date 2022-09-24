@@ -12,7 +12,7 @@ int n, t;
 
 for (n = 0; n < size; n++)
 {
-for (t = 1; t < (size -1); t++)
+for (t = 1; t < (size -n); t++)
 {
 _putchar(' ');
 }
