@@ -15,6 +15,7 @@ while (n >= 0)
 if (str[n] == '\0')
 {
 _putchar('\n');
+break;
 }
 _putchar(str[n]);
 n++;
