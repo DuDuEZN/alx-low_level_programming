@@ -16,7 +16,7 @@ if (str[n] == '\0')
 {
 _putchar('\n');
 }
-_putchar(str[n];
+_putchar(str[n]);
 n++;
 }
 }
